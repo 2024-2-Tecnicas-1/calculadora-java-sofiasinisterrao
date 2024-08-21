@@ -22,6 +22,10 @@ public class Calculadora {
                 // Operación multiplicación:
                 respuesta = numero1 * numero2;
                 break;
+            case '/' :
+                // Operación divisíon:
+                respuesta = numero1 / numero2;
+                break;
             case '%' :
                 // Operación potencia:
                 respuesta =  numero1 % numero2;
