@@ -22,11 +22,11 @@ public class Calculadora {
                 // Operación multiplicación:
                 respuesta = numero1 * numero2;
                 break;
-            case '/' :
+            case '%' :
                 // Operación potencia:
                 respuesta =  numero1 % numero2;
                 break;
-            case '/' :
+            case '^' :
                 // Operación modulo:
                 respuesta = Math.pow (numero1 ,numero2);
                 break;
